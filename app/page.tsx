@@ -3,6 +3,7 @@ import GuidanceSection from "@/components/GuidanceSection";
 import Header from "@/components/Header";
 import HeroSection from "@/components/Hero";
 import NewsletterSection from "@/components/NewsLetterSection";
+import PartnerSection from "@/components/Partners";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <NewsletterSection />
     <GuidanceSection />
     <CertificationsSection />
+    <PartnerSection />
     </>
   );
 }
