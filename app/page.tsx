@@ -1,3 +1,4 @@
+import AdSection from "@/components/AdSection";
 import CertificationsSection from "@/components/Certification";
 import GuidanceSection from "@/components/GuidanceSection";
 import Header from "@/components/Header";
@@ -14,6 +15,7 @@ export default function Home() {
     <GuidanceSection />
     <CertificationsSection />
     <PartnerSection />
+    <AdSection />
     </>
   );
 }
