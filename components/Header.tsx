@@ -30,7 +30,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className={`w-full sticky top-0 z-50 bg-[#12161E] border-b border-[#2a2a35]  ${aboreto.className}`}>
+    <header className={`w-full bg-[#12161E] border-b border-[#2a2a35]  ${aboreto.className}`}>
       {/* Top bar */}
       <div className="px-6 lg:px-10 py-2 flex items-center justify-between max-w-7xl mx-auto">
         {/* Social icons */}

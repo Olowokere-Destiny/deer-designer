@@ -30,7 +30,7 @@ const TestimonialSection = () => {
 
         {/* Heading */}
         <h2
-          className={`${cormorant.className} text-[clamp(2.2rem,4.5vw,3.4rem)] font-normal italic text-[#FFF7F0] leading-[1.15] mb-6`}
+          className={`${cormorant.className} text-4xl md:text-5xl font-normal italic text-[#FFF7F0] leading-[1.15] mb-6`}
         >
           Hear What Our Clients Have to Say
         </h2>

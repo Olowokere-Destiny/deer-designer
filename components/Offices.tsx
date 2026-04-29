@@ -24,7 +24,7 @@ const officeData = [
 
 const Offices = () => {
   return (
-    <section className="bg-[#16191F] py-20 px-6 border-[#FFF7F0]/10 border-y">
+    <section className="bg-[#16191F] py-20 px-6 border-[#16191F]/90 border-y">
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         {officeData.map((office, i) => (
           <div 
