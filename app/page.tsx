@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/Hero";
 import NewsletterSection from "@/components/NewsLetterSection";
 import PartnerSection from "@/components/Partners";
+import TestimonialSection from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
     <CertificationsSection />
     <PartnerSection />
     <AdSection />
+    <TestimonialSection />
     </>
   );
 }
