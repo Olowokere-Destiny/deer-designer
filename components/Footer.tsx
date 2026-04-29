@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Aboreto, Cormorant_Garamond } from "next/font/google";
-import logo from "../assets/images/footer-logo.png";
+import logo from "../assets/images/footer-logo.svg";
 import facebook from "../assets/icons/fb-icon.svg"; 
 import linkedin from "../assets/icons/linkedin-icon.svg";
 import youtube from "../assets/icons/yt-icon.svg";
@@ -19,7 +19,7 @@ const aboreto = Aboreto({
 const Footer = () => {
   return (
     <footer className="bg-[#16191F] pt-20 pb-10 px-6 lg:px-12">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.2fr_1fr_1.2fr_1fr] gap-x-4 gap-y-12 mb-20">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1fr] gap-x-4 gap-y-12 mb-20">
         
         {/* Brand Column */}
         <div className="flex flex-col items-start justify-start">
@@ -27,7 +27,7 @@ const Footer = () => {
             <Image 
               src={logo} 
               alt="Deer Designer Family Law" 
-              width={110} 
+              width={150} 
               height={80}
               className="brightness-0 invert object-contain" 
             />

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Cormorant_Garamond, Aboreto } from "next/font/google";
-import heroBg from "../assets/images/hero-bg.jpg";
+import heroBg from "../assets/images/hero-bg.png";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -17,7 +17,7 @@ const aboreto = Aboreto({
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full min-h-160 flex items-center justify-center overflow-hidden bg-[#1a1f2e]">
+    <section className="relative w-full min-h-160 flex items-center justify-center overflow-hidden">
 
       <div className="absolute inset-0">
         <Image
@@ -25,12 +25,10 @@ export default function HeroSection() {
           alt="Happy family outdoors"
           fill
           priority
-          className="object-cover object-center opacity-45"
+          className="object-cover object-center"
         />
       </div>
 
-      {/* Dark overlay for extra depth */}
-      <div className="absolute inset-0 bg-[#1a1f2e]/50" />
 
       {/* Card */}
       <div className="relative z-10 w-[88%] max-w-[720px] border border-[#C49E78]/20 rounded-2xl px-10 py-14 text-center bg-white/10 sm:px-16">
